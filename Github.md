@@ -23,8 +23,11 @@ They are a way to detach you work from the master branch. <br>
 It's a file that contains information about other files in a directory or archive of computer software. <br>
 
 ## Git commands
-*git add* = add files to the staging area <br>
-*git rm --cached "file_name"*	= remove files from the staging area <br>
-*git rm -f "file_name"* = remove files from the working directory <br>
-*git push --force* = force the push, overwriting the remote repository <br>
-*git fetch* = tells if there are changes on the remote server <br>
+**git add** = add files to the staging area <br>
+**git rm --cached "file_name"**	= remove files from the staging area <br>
+**git rm -f "file_name"** = remove files from the working directory <br>
+**git push --force** = force the push, overwriting the remote repository <br>
+**git fetch** = tells if there are changes on the remote server <br>
+**git pull --force** = force the pull, overwriting the local repository <br>
+**git log** = shows the history of commits <br>
+**git checkout -b "branch_name"** = create a new branch <br>
