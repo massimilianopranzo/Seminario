@@ -34,3 +34,4 @@ It's a file that contains information about other files in a directory or archiv
 **git checkout "branch_name"** = switch to a branch <br>
 **git switch "branch_name"** = switch to a branch <br>
 **git pull origin "branch_name"** = pull a branch from the remote repository <br>
+**git push origin "branch_name": "branch_name"** = push a branch to the remote repository <br>
