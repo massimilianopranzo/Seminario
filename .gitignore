@@ -1,0 +1,7 @@
+# Folder named your_folder
+# your_folder/
+
+*.asv
+*.bak
+
+*.rst
