@@ -31,3 +31,5 @@ It's a file that contains information about other files in a directory or archiv
 **git pull --force** = force the pull, overwriting the local repository <br>
 **git log** = shows the history of commits <br>
 **git checkout -b "branch_name"** = create a new branch <br>
+**git checkout "branch_name"** = switch to a branch <br>
+**git switch "branch_name"** = switch to a branch <br>
