@@ -39,3 +39,6 @@ It's a file that contains information about other files in a directory or archiv
 The HEAD is a pointer that holds your position within all your different commits. <br> 
 Using HEAD~n you can go back n commits. <br>
 **git stash** = temporarily removes changes. <br>
+**git rebase** = reapply commits on top of another base tip. <br>
+**git submodule** = allows you to keep a Git repository as a subdirectory of another Git repository. <br>
+**git submodule update** = update the submodules. <br>
