@@ -26,28 +26,28 @@ It's a file that contains information about other files in a directory or archiv
 
 ## Git commands
 ```bash
-**git add** = add files to the staging area <br>
-**git rm --cached "file_name"**	= remove files from the staging area <br>
-**git rm -f "file_name"** = remove files from the working directory <br>
-**git push --force** = force the push, overwriting the remote repository <br>
-**git fetch** = tells if there are changes on the remote server <br>
-**git pull --force** = force the pull, overwriting the local repository <br>
-**git log** = shows the history of commits <br>
-**git checkout -b "branch_name"** = create a new branch <br>
-**git checkout "branch_name"** = switch to a branch <br>
-**git switch "branch_name"** = switch to a branch <br>
-**git pull origin "branch_name"** = pull a branch from the remote repository <br>
-**git push origin "branch_name": "branch_name"** = push a branch to the remote repository <br>
-**git revert HEAD** = undo the last commit <br>
-The HEAD is a pointer that holds your position within all your different commits. <br> 
-Using HEAD~n you can go back n commits. <br>
-**git stash** = temporarily removes changes. <br>
-**git rebase** = reapply commits on top of another base tip. <br>
-**git submodule add "url"** = add a submodule. <br>
-**git submodule update --init --recursive** = update submodules. <br>
-**submodule deinit -f path/to/submodule** = remove link to submodule. <br>
-rm -rf .git/modules/path/to/submodule/ = remove a submodule. <br>
-**git rm -f path/to/submodule** = remove a submodule. <br>
-**git rm -f -r path/to/submodule** = remove a submodule which is a folder. <br>
+**git add** = add files to the staging area 
+**git rm --cached "file_name"**	= remove files from the staging area 
+**git rm -f "file_name"** = remove files from the working directory 
+**git push --force** = force the push, overwriting the remote repository 
+**git fetch** = tells if there are changes on the remote server 
+**git pull --force** = force the pull, overwriting the local repository 
+**git log** = shows the history of commits 
+**git checkout -b "branch_name"** = create a new branch 
+**git checkout "branch_name"** = switch to a branch 
+**git switch "branch_name"** = switch to a branch 
+**git pull origin "branch_name"** = pull a branch from the remote repository 
+**git push origin "branch_name": "branch_name"** = push a branch to the remote repository 
+**git revert HEAD** = undo the last commit 
+The HEAD is a pointer that holds your position within all your different commits.  
+Using HEAD~n you can go back n commits. 
+**git stash** = temporarily removes changes. 
+**git rebase** = reapply commits on top of another base tip. 
+**git submodule add "url"** = add a submodule. 
+**git submodule update --init --recursive** = update submodules. 
+**submodule deinit -f path/to/submodule** = remove link to submodule. 
+rm -rf .git/modules/path/to/submodule/ = remove a submodule. 
+**git rm -f path/to/submodule** = remove a submodule. 
+**git rm -f -r path/to/submodule** = remove a submodule which is a folder. 
 
 ```
