@@ -35,3 +35,7 @@ It's a file that contains information about other files in a directory or archiv
 **git switch "branch_name"** = switch to a branch <br>
 **git pull origin "branch_name"** = pull a branch from the remote repository <br>
 **git push origin "branch_name": "branch_name"** = push a branch to the remote repository <br>
+**git revert HEAD** = undo the last commit <br>
+The HEAD is a pointer that holds your position within all your different commits. <br> 
+Using HEAD~n you can go back n commits. <br>
+**git stash** = temporarily removes changes. <br>
