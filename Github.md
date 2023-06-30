@@ -22,7 +22,10 @@ They are a way to detach you work from the master branch. <br>
 ## README.md
 It's a file that contains information about other files in a directory or archive of computer software. <br>
 
+---
+
 ## Git commands
+```bash
 **git add** = add files to the staging area <br>
 **git rm --cached "file_name"**	= remove files from the staging area <br>
 **git rm -f "file_name"** = remove files from the working directory <br>
@@ -42,3 +45,7 @@ Using HEAD~n you can go back n commits. <br>
 **git rebase** = reapply commits on top of another base tip. <br>
 **git submodule add "url"** = add a submodule. <br>
 **git submodule update --init --recursive** = update submodules. <br>
+**submodule deinit -f path/to/submodule** = remove link to submodule. <br>
+rm -rf .git/modules/path/to/submodule/ = remove a submodule. <br>
+**git rm -f path/to/submodule** = remove a submodule. <br>
+```
