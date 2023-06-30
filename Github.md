@@ -48,4 +48,6 @@ Using HEAD~n you can go back n commits. <br>
 **submodule deinit -f path/to/submodule** = remove link to submodule. <br>
 rm -rf .git/modules/path/to/submodule/ = remove a submodule. <br>
 **git rm -f path/to/submodule** = remove a submodule. <br>
+**git rm -f -r path/to/submodule** = remove a submodule which is a folder. <br>
+
 ```
